@@ -18,3 +18,9 @@ jobs:
       - name: Right now it is
         run: |
           date
+  folder_directory_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Folder contents are
+        run: |
+          ls
